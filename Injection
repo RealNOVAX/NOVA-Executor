@@ -1,0 +1,55 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local ImageLabel = Instance.new("ImageLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+ImageLabel.Parent = ScreenGui
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.422360241, 0, 0.378109455, 0)
+ImageLabel.Size = UDim2.new(0, 249, 0, 196)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=18619801480"
+ImageLabel.ScaleType = Enum.ScaleType.Fit
+
+
+if game.Loaded  then
+	
+	wait(1)
+
+	ImageLabel.ImageTransparency = 0.1 
+	wait(0.1)
+
+	ImageLabel.ImageTransparency = 0.2
+	wait(0.1)
+	ImageLabel.ImageTransparency = 0.3 
+	wait(0.1)
+
+	ImageLabel.ImageTransparency = 0.4 
+	wait(0.1)
+	ImageLabel.ImageTransparency = 0.5 
+	wait(0.1)
+
+	ImageLabel.ImageTransparency = 0.6 
+	wait(0.1)
+	ImageLabel.ImageTransparency = 0.7 
+	wait(0.1)
+
+	ImageLabel.ImageTransparency = 0.8 
+	wait(0.1)
+
+	ImageLabel.ImageTransparency = 0.9 
+	wait(0.1)
+	ImageLabel.ImageTransparency = 1 
+	wait(3)
+	ScreenGui.Enabled = false
+end
+
