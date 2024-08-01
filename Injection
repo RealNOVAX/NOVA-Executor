@@ -1,7 +1,12 @@
--- Gui to Lua
--- Version: 3.2
+local StarterGui = game:GetService("StarterGui")
 
--- Instances:
+StarterGui:SetCore("SendNotification", {
+    Title = "Cloudware";
+    Text = "Cloud-Ware Injected | Version: 2.7.0  ";
+    Icon = "http://www.roblox.com/asset/?id=18619801480"; -- You can add an icon URL here
+    Duration = 5; -- Duration in seconds
+})
+
 
 local ScreenGui = Instance.new("ScreenGui")
 local ImageLabel = Instance.new("ImageLabel")
